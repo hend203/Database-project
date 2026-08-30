@@ -164,7 +164,7 @@ DELETE FROM Employees
 WHERE Emp_ID = 12;
 
 -- Result: 0 rows affected because Employee 12 does not exist in the current Employees table.
- 
+
 -- E. Create an index on column (Salary) that allows clustering the data
 CREATE CLUSTERED INDEX IX_Employees_Salary
 ON Employees(Salary);
